@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   Membuat Profile
+   Tanggal : Jumat, 22 04 2022
+
+   Nama : Muhammad Idris Merdefi
+   NIM : 1011905
+   Kelas : IF2
+   -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context=".ProfilActivity"
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/idris" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Muhammad Idris Merdefi"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NIM : 10119084"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="kelas : IF2"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="HI semuanya perkenalkan nama saya muhammad idris merdefi, sekarang saya kuliah di jurusan teknik informatika universitas komputer indonesia."
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>
